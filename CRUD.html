@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API STUDY</title>
+    <link rel="stylesheet" href="CRUD.css">
+</head>
+<body>
+    <form id="userForm" >
+        <input type="text" id="id" style="display: none;"/>
+        <input type="text" id="editdel" style="display: none;"/>
+        <div>
+            <label>Name</label>
+            <input type="text" id="name" /><br>
+            <span id="namespan"></span>
+        </div> <br/>
+        <div>
+            <label>Age</label>
+            <input type="text" id="age" /><br>
+            <span id="agespan"></span>
+        </div> <br/>
+        <div>
+            <label>Email</label>
+            <input type="email" id="email" /><br>
+            <span id="emailspan"></span>
+        </div> <br/>
+        <div>
+            <label>Course</label>
+            <input type="text" id="course" /><br>
+            <span id="coursespan"></span>
+        </div> <br/>
+        <button type="submit" >Submit</button><br>
+        </form>
+    <br><br>
+    <div style="overflow-x:auto;">
+        <table id="userdetail-table">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Email</th>
+                <th>UserID</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="CRUD.js"></script>
+</html>

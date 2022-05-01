@@ -1,0 +1,33 @@
+#userTable,th,tr,td{
+    border:2px solid black;
+    text-align: center;
+}
+
+th,tr,td{
+    width: 200px;
+}
+
+ul {
+    text-align: left;
+    width: 200px;
+}
+
+form  { 
+    display: table;  
+    text-align: left;
+    padding: 20px;  
+    align-items: center;  
+}
+
+form button{
+    margin-left: 150%;
+}
+form div { 
+    display: table-row; 
+    
+ }
+label { display: table-cell; }
+input { display: table-cell; }
+span{
+    color: red;
+}
