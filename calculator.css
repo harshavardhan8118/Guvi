@@ -1,0 +1,33 @@
+#values{
+    width: 50%;
+    margin: 2% 0 2% 2%;
+    border: 2px solid rgb(77, 236, 4);
+}
+#input1{
+    width: 50%;
+    margin: 2% 0 2% 2%;
+    border: 2px solid rgb(71, 21, 207);
+}
+#input2{
+    width: 50%;
+    margin: 2% 0 2% 2%;
+    border: 2px solid rgb(71, 21, 207);
+}
+
+#equals{
+    width: 25%;
+    margin-left:12.5%;
+    border: 2px solid rgb(38, 221, 191);
+}
+
+#output{
+    width: 50%;
+    margin: 2% 0 2% 2%;
+    border: 2px solid rgb(235, 7, 7);
+}
+
+.main{
+    border: 2px solid rgb(77, 236, 4); 
+    width: 50%;margin: auto;
+    background-color: rgb(168, 194, 21);
+}
