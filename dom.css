@@ -1,0 +1,72 @@
+.table tr td  {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table{
+    visibility: hidden;
+}
+.heading{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: auto;
+}
+
+.mainform{
+    border: 1px solid black;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+input[type="text"]{
+    width: 70%;
+}
+
+input[type="number"]{
+    width: 70%;
+}
+
+input[type="radio"]{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+input[type="radio"] label{
+    margin-right: 2%;
+}
+
+textarea{
+    width: 70%;
+}
+
+.formfield * {  
+    vertical-align: middle;
+}
+  
+form  { 
+      display: table;     
+}
+
+.check label{
+     margin:auto;
+}
+
+.check {
+    margin:auto;
+}
+
+.button{
+    width: 30%;
+}
+
+select{
+    width: 50%;
+}
