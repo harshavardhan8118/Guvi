@@ -1,0 +1,57 @@
+.links{
+    left: 0;
+}
+
+.head_content{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+body{
+    font-family: serif;
+}
+
+.rebelpoet{
+    margin-top: 100px;
+    margin-left: 200px;
+    /* width: 400px; */
+}
+
+img{
+    width: 75%;
+    /* width: 350px; */
+    /* margin-right: 10px; */
+    /* margin-left: 150px; */
+    margin-left: 10%;
+    justify-content: center;
+}  
+
+.linkflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;    
+}
+
+
+
+
+
+a{
+    padding: 10px;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.proverb{
+    color: white;   
+    height: 150px;  
+}
+
+.footer{
+    width: 100%;
+    color: white;
+}
